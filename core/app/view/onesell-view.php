@@ -62,8 +62,8 @@ $user = $sell->getUser();
 	<td><?php echo $product->id ;?></td>
 	<td><?php echo $operation->q ;?></td>
 	<td><?php echo $product->name ;?></td>
-	<td>$ <?php echo number_format($product->price_out,2,".",",") ;?></td>
-	<td><b>$ <?php echo number_format($operation->q*$product->price_out,2,".",",");$total+=$operation->q*$product->price_out;?></b></td>
+	<td>S/. <?php echo number_format($product->price_out,2,".",",") ;?></td>
+	<td><b>S/.<?php echo number_format($operation->q*$product->price_out,2,".",",");$total+=$operation->q*$product->price_out;?></b></td>
 </tr>
 <?php
 	}
@@ -75,15 +75,15 @@ $user = $sell->getUser();
 <table class="table table-bordered">
 	<tr>
 		<td><h4>Descuento:</h4></td>
-		<td><h4>$ <?php echo number_format($sell->discount,2,'.',','); ?></h4></td>
+		<td><h4>S/.<?php echo number_format($sell->discount,2,'.',','); ?></h4></td>
 	</tr>
 	<tr>
 		<td><h4>Subtotal:</h4></td>
-		<td><h4>$ <?php echo number_format($total,2,'.',','); ?></h4></td>
+		<td><h4>S/.<?php echo number_format($total,2,'.',','); ?></h4></td>
 	</tr>
 	<tr>
 		<td><h4>Total:</h4></td>
-		<td><h4>$ <?php echo number_format($total-	$sell->discount,2,'.',','); ?></h4></td>
+		<td><h4>S/.<?php echo number_format($total-	$sell->discount,2,'.',','); ?></h4></td>
 	</tr>
 </table>
 </div>

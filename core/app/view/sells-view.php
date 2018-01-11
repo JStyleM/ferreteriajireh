@@ -40,7 +40,7 @@ $total= $sell->total-$sell->discount;
 		$product  = $operation->getProduct();
 		$total += $operation->q*$product->price_out;
 	}*/
-		echo "<b>$ ".number_format($total)."</b>";
+		echo "<b>S/. ".number_format($total)."</b>";
 
 ?>			
 

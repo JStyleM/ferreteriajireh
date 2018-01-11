@@ -41,7 +41,7 @@ $total=0;
 		$total += $operation->q*$product->price_out;
 	}
 		$total_total += $total;
-		echo "<b>$ ".number_format($total,2,".",",")."</b>";
+		echo "<b>S/.".number_format($total,2,".",",")."</b>";
 
 ?>			
 
@@ -52,7 +52,7 @@ $total=0;
 <?php endforeach; ?>
 
 </table>
-<h1>Total: <?php echo "$ ".number_format($total_total,2,".",","); ?></h1>
+<h1>Total: <?php echo "S/. ".number_format($total_total,2,".",","); ?></h1>
 	<?php
 }else {
 
