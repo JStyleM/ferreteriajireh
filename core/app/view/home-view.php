@@ -80,19 +80,7 @@ foreach($products as $product){
       <!-- /.row -->
 
 <div class="row">
-	<div class="col-md-12">
-<?php if($found):?>
-<div class="btn-group pull-right">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <i class="fa fa-download"></i> Descargar <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="report/alerts-word.php">Word 2007 (.docx)</a></li>
-  </ul>
-</div>
-<?php endif;?>
 
-</div>
 <div class="clearfix"></div>
 <?php if(count($products)>0){?>
 <br><table class="table table-bordered table-hover">

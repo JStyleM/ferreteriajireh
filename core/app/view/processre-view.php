@@ -5,14 +5,6 @@ if(isset($_SESSION["reabastecer"])){
 
 $process = true;
 
-
-
-
-
-
-
-
-
 //////////////////////////////////
 		if($process==true){
 			$sell = new SellData();

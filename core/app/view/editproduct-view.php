@@ -13,6 +13,7 @@ if($product!=null):
 	<br><br>
 		<form class="form-horizontal" method="post" id="addproduct" enctype="multipart/form-data" action="index.php?view=updateproduct" role="form">
 
+<!--
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-3 control-label">Imagen*</label>
     <div class="col-md-8">
@@ -25,12 +26,17 @@ if($product!=null):
     </div>
   </div>
 
+
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-3 control-label">Codigo de barras*</label>
     <div class="col-md-8">
       <input type="text" name="barcode" class="form-control" id="barcode" value="<?php echo $product->barcode; ?>" placeholder="Codigo de barras del Producto">
     </div>
   </div>
+-->
+
+
+
     <div class="form-group">
     <label for="inputEmail1" class="col-lg-3 control-label">Nombre*</label>
     <div class="col-md-8">

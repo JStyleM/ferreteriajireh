@@ -6,7 +6,7 @@ $categories = CategoryData::getAll();
 	<h1>Nuevo Producto</h1>
 	<br>
 		<form class="form-horizontal" method="post" enctype="multipart/form-data" id="addproduct" action="index.php?view=addproduct" role="form">
-
+<!--
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Imagen</label>
     <div class="col-md-6">
@@ -18,7 +18,8 @@ $categories = CategoryData::getAll();
     <div class="col-md-6">
       <input type="text" name="barcode" id="product_code" class="form-control" id="barcode" placeholder="Codigo de Barras del Producto">
     </div>
-  </div>
+  </div>-->
+
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Nombre*</label>
     <div class="col-md-6">

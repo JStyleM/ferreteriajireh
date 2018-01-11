@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Inventio Lite | Dashboard</title>
+    <title>FERRETERIA JIREH</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.4 -->
     <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -19,28 +19,12 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
-    body{
-      height: 720px;
-    }
-      .wrapper{
-        background: #2b2a2a url(plugins/dist/img/uns2.png) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%;
-      }
-      .login-logo a,
-.register-logo a {
-  color: #989696;
-}
     </style>
-          <script src="plugins/jquery/jquery-2.1.4.min.js"></script>
-<script src="plugins/morris/raphael-min.js"></script>
-<script src="plugins/morris/morris.js"></script>
-  <link rel="stylesheet" href="plugins/morris/morris.css">
-  <link rel="stylesheet" href="plugins/morris/example.css">
+      <script src="plugins/jquery/jquery-2.1.4.min.js"></script>
+      <script src="plugins/morris/raphael-min.js"></script>
+      <script src="plugins/morris/morris.js"></script>
+      <link rel="stylesheet" href="plugins/morris/morris.css">
+      <link rel="stylesheet" href="plugins/morris/example.css">
           <script src="plugins/jspdf/jspdf.min.js"></script>
           <script src="plugins/jspdf/jspdf.plugin.autotable.js"></script>
           <?php if(isset($_GET["view"]) && $_GET["view"]=="sell"):?>
@@ -52,6 +36,9 @@
 
   <body class="<?php if(isset($_SESSION["user_id"]) || isset($_SESSION["client_id"])):?>  skin-blue-light sidebar-mini <?php else:?>login-page<?php endif; ?>" >
     <div class="wrapper">
+      <div class="contenido">
+        
+      
       <!-- Main Header -->
       <?php if(isset($_SESSION["user_id"]) || isset($_SESSION["client_id"])):?>
       <header class="main-header">
@@ -60,7 +47,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>I</b>L</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>INVENTIO</b>LITE</span>
+          <span class="logo-lg"><b>FERRETERIA</b>JIREH</span>
         </a>
 
         <!-- Header Navbar -->
@@ -142,7 +129,7 @@
                 <li><a href="./?view=res">Abastecimientos</a></li>
               </ul>
             </li>
-                        <li class="treeview">
+            <li class="treeview">
               <a href="#"><i class='fa fa-file-text-o'></i> <span>Reportes</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
                 <li><a href="./?view=reports">Inventario</a></li>
@@ -158,6 +145,8 @@
                 <li><a href="./?view=settings">Configuracion</a></li>
               </ul>
             </li>
+
+            <!--<li><a href="./?view=acerca"><i class='fa fa-glass'></i> <span>Acerca de...</span></a></li>-->
           <?php endif;?>
 
           </ul><!-- /.sidebar-menu -->
@@ -177,7 +166,7 @@
       <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <a href="./">INVENTIO<b>LITE</b></a>
+        <a href="./">FERRETERIA<b>JIREH</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">
@@ -200,7 +189,7 @@
     </div><!-- /.login-box -->  
       <?php endif;?>
 
-
+</div>
     </div><!-- ./wrapper -->
 
     <!-- REQUIRED JS SCRIPTS -->
