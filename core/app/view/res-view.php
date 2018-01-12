@@ -37,7 +37,7 @@ $total=0;
 		$product  = $operation->getProduct();
 		$total += $operation->q*$product->price_in;
 	}
-		echo "<b>$ ".number_format($total)."</b>";
+		echo "<b>S/. ".number_format($total)."</b>";
 
 ?>			
 
