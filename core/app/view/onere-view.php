@@ -62,14 +62,14 @@ $user = $sell->getUser();
 	<td><?php echo $product->id ;?></td>
 	<td><?php echo $operation->q ;?></td>
 	<td><?php echo $product->name ;?></td>
-	<td>$ <?php echo number_format($product->price_in,2,".",",") ;?></td>
-	<td><b>$ <?php echo number_format($operation->q*$product->price_in,2,".",",");$total+=$operation->q*$product->price_in;?></b></td>
+	<td>S/.<?php echo number_format($product->price_in,2,".",",") ;?></td>
+	<td><b>S/. <?php echo number_format($operation->q*$product->price_in,2,".",",");$total+=$operation->q*$product->price_in;?></b></td>
 </tr>
 <?php
 	}
 	?>
 </table>
-<br><br><h1>Total: $ <?php echo number_format($total,2,'.',','); ?></h1>
+<br><br><h1>Total: S/. <?php echo number_format($total,2,'.',','); ?></h1>
 	<?php
 
 ?>	

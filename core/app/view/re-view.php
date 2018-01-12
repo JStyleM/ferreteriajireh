@@ -41,7 +41,7 @@ $q= OperationData::getQYesF($product->id);
 		<td style="width:80px;"><?php echo $product->id; ?></td>
 		<td><?php echo $product->name; ?></td>
 		<td><?php echo $product->unit; ?></td>
-		<td><b>$<?php echo $product->price_in; ?></b></td>
+		<td><b>S/.<?php echo $product->price_in; ?></b></td>
 		<td>
 			<?php echo $q; ?>
 		</td>
@@ -114,8 +114,8 @@ $product = ProductData::getById($p["product_id"]);
 	<td ><?php echo $p["q"]; ?></td>
 	<td><?php echo $product->unit; ?></td>
 	<td><?php echo $product->name; ?></td>
-	<td><b>$ <?php echo number_format($product->price_in); ?></b></td>
-	<td><b>$ <?php  $pt = $product->price_in*$p["q"]; $total +=$pt; echo number_format($pt); ?></b></td>
+	<td><b>S/.<?php echo number_format($product->price_in); ?></b></td>
+	<td><b>S/.<?php  $pt = $product->price_in*$p["q"]; $total +=$pt; echo number_format($pt); ?></b></td>
 	<td style="width:30px;"><a href="index.php?view=clearre&product_id=<?php echo $product->id; ?>" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i> Cancelar</a></td>
 </tr>
 
@@ -148,15 +148,15 @@ $clients = PersonData::getProviders();
 <table class="table table-bordered">
 <tr>
 	<td><p>Subtotal</p></td>
-	<td><p><b>$ <?php echo number_format($total*.84); ?></b></p></td>
+	<td><p><b>S/. <?php echo number_format($total*.84); ?></b></p></td>
 </tr>
 <tr>
 	<td><p>IVA</p></td>
-	<td><p><b>$ <?php echo number_format($total*.16); ?></b></p></td>
+	<td><p><b>S/.<?php echo number_format($total*.16); ?></b></p></td>
 </tr>
 <tr>
 	<td><p>Total</p></td>
-	<td><p><b>$ <?php echo number_format($total); ?></b></p></td>
+	<td><p><b>S/.<?php echo number_format($total); ?></b></p></td>
 </tr>
 
 </table>
