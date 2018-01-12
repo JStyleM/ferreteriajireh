@@ -41,7 +41,7 @@ $total=0;
 		$total += $operation->q*$product->price_out;
 	}
 		$total_total += $total;
-		echo "<b>/S.".number_format($total,2,".",",")."</b>";
+		echo "<b>S/.".number_format($total,2,".",",")."</b>";
 
 ?>			
 

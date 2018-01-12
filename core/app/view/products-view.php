@@ -1,4 +1,4 @@
-<div class="row">
+ho<div class="row">
 	<div class="col-md-12">
 <div class="btn-group  pull-right">
 	<a href="index.php?view=newproduct" class="btn btn-default">Agregar Producto</a>

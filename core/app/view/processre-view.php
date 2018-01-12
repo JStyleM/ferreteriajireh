@@ -1,4 +1,4 @@
-<?php
+h<?php
 if(isset($_SESSION["reabastecer"])){
 	$cart = $_SESSION["reabastecer"];
 	if(count($cart)>0){

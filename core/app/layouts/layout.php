@@ -45,7 +45,7 @@
         <!-- Logo -->
         <a href="./" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>I</b>L</span>
+          <span class="logo-mini"><b>F</b>J</span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>FERRETERIA</b>JIREH</span>
         </a>
@@ -146,7 +146,7 @@
               </ul>
             </li>
 
-            <!--<li><a href="./?view=acerca"><i class='fa fa-glass'></i> <span>Acerca de...</span></a></li>-->
+            <li><a href="./?view=acerca"><i class='fa fa-glass'></i> <span>Acerca de...</span></a></li>
           <?php endif;?>
 
           </ul><!-- /.sidebar-menu -->
