@@ -134,7 +134,7 @@ $clients = PersonData::getClients();
 	<td><p><b>S/.<?php echo number_format($total*.84); ?></b></p></td>
 </tr>
 <tr>
-	<td><p>IVA</p></td>
+	<td><p>IGV</p></td>
 	<td><p><b>S/.<?php echo number_format($total*.16); ?></b></p></td>
 </tr>
 <tr>
@@ -172,7 +172,7 @@ $clients = PersonData::getClients();
 			e.preventDefault();
 		}else{
 			if(discount==""){ discount=0;}
-			go = confirm("Cambio: $"+(money-(<?php echo $total;?>-discount ) ) );
+			go = confirm("Cambio: S/."+(money-(<?php echo $total;?>-discount ) ) );
 			if(go){}
 				else{e.preventDefault();}
 		}
