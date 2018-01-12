@@ -52,9 +52,8 @@
 									<a href="#">Reseña histórica y operacional</a>
 									<div class="aboutus_bg">
 										<div class="about_col1" style="padding-left: 10px;">
-											<img class="uns" src="plugins/acerca/images/fer.jpg" alt="" title="" style="float: right; padding-left: 10px; padding-top: 5px;"/>
-											<br><br><br><br><br><br><br><br><br><br>
-											<br><br><br>
+											
+											<br>
 											<p>En el año 2012, José López Luna tuvo la iniciativa de crear un pequeño negocio, con un inventario muy limitado y en un pequeño establecimiento, pero siempre dando una buena atención al cliente, En el año 2013 después de mucho trabajo y esfuerzo logro surgir formalmente la Ferretería Jireh, con un concepto diferente e innovador, que ofrezca un buen servicio consiguiendo así en los clientes un alto de satisfacción después de realizar sus compras.
 											Hoy, dicha Ferretería, se ha llegado a posicionar como una de las ferreterías más reconocidas de San Luis, con un eficiente sistema de ventas, dando una óptima calidad de servicio a sus clientes, llegando a tener en los diversos años, mayor cantidad de personas que acuden a realizar sus compras en dicho establecimiento.</p>
 										</div>
