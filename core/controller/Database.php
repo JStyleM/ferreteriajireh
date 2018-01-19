@@ -3,7 +3,7 @@ class Database {
 	public static $db;
 	public static $con;
 	function Database(){
-		$this->user="sql9215135";$this->pass="bSlsFRBidJ";$this->host="sql9.freemysqlhosting.net";$this->ddbb="sql9215135";
+		$this->user="jireh_db";$this->pass="db123456";$this->host="localhost";$this->ddbb="jireh";
 	}
 
 	function connect(){
